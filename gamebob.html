@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()" onclick="block()">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINION GAME</title>
+    <link href="gamebob.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>CLICK ANYWHERE TO JUMP!</h1>
+    <p>If you lost, press the RESET button before starting the game again!</p>
+    <div id="game">
+      <!-- <img id="back" src="photos/background.jpg" /> -->
+      <div id="character"><img src="photos/bob.jpg" /></div>
+      <div id="block"><img id="evil" src="photos/evilminion.jpg" /></div>
+    </div>
+    <center>
+      <button onclick="myButton()">RESET</button>
+      <button id="startbtn">START</button>
+      <a href="game.html"><button id="home">BACK</button></a>
+    </center>
+  </body>
+  <script src="game.js"></script>
+</html>
